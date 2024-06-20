@@ -34,6 +34,17 @@ IoT 개발자 과정 IoT 오픈 하드웨어 플랫폼 활용
     - time.sleep(secs)
 
 
-- 풀업, 풀다운 저항
+
+- 풀업 저항 
+    - VCC 바로앞에 저항이 있음
+    - 스위치가 안눌러졌을때 INPUT에 1의 값이 들어간다
+    - 스위치를 누르면 GND로 전류가 흐름
 ![풀업](https://raw.githubusercontent.com/JEONGWOO0705/basic_raspi_2024/main/image/pullup.png)
+
+-  풀다운 저항
+    - 저항이 GND앞에 있음
+    - 스위치 OFF 일때 INPUT에 값 안들어감
+    - 스위치 ON 일때 INPUT에 1의 값이 들어감
+
+![풀다운](https://raw.githubusercontent.com/JEONGWOO0705/basic_raspi_2024/main/image/pulldown.png)
 
