@@ -34,4 +34,6 @@ IoT 개발자 과정 IoT 오픈 하드웨어 플랫폼 활용
     - time.sleep(secs)
 
 
+- 풀업, 풀다운 저항
+![풀업](https://raw.githubusercontent.com/JEONGWOO0705/basic_raspi_2024/main/image/pullup.png)
 
