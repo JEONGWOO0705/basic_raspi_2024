@@ -36,4 +36,8 @@ def led(state):
 
 
 if __name__=="__main__":
+<<<<<<< Updated upstream
     app.run(host= "0.0.0.0",port = "10011", debug = True)
+=======
+    app.run(host= "0.0.0.0",port = "10011", debug = True)
+>>>>>>> Stashed changes

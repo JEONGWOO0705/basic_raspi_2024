@@ -48,3 +48,13 @@ IoT 개발자 과정 IoT 오픈 하드웨어 플랫폼 활용
 
 ![풀다운](https://raw.githubusercontent.com/JEONGWOO0705/basic_raspi_2024/main/image/pulldown.png)
 
+
+## 3일차
+- 가상환경 설치 
+    - python -m venv 
+        - 옵션 추가 
+            - python -m venv --system-site-packages env
+            
+
+- 릴레이
+- 모터 드라이브/ STEP Mortor

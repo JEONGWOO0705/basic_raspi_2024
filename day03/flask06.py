@@ -17,4 +17,8 @@ def user(username):
 if __name__=="__main__":
     app.run(host= "0.0.0.0",port = "10011", debug = True)
 
+<<<<<<< Updated upstream
 #http://192.168.5.3:10011/?이름=황정우&주소=부산 --> 접속 방법
+=======
+#http://192.168.5.3:10011/?이름=황정우&주소=부산 --> 접속 방법
+>>>>>>> Stashed changes

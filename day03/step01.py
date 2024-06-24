@@ -39,4 +39,8 @@ try:
         time.sleep(0.01)
 
 except KeyboardInterrupt:
+<<<<<<< Updated upstream
     GPIO.cleanup()
+=======
+    GPIO.cleanup()
+>>>>>>> Stashed changes
