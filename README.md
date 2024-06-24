@@ -56,5 +56,29 @@ IoT 개발자 과정 IoT 오픈 하드웨어 플랫폼 활용
             - python -m venv --system-site-packages env
             
 
-- 릴레이
+- 아두이노 릴레이
+
+![아두이노 릴레이](https://raw.githubusercontent.com/JEONGWOO0705/basic_raspi_2024/main/image/relay.png)
+
+    - 어떤값 이상의 전기적 입력을 인식하여 다른 전기회로의 개폐를 제어하는 기기
+    - signal 핀으로 들어오는 신호를 읽은뒤 그 신호를 기준으로 COM 단자에 연결된 전기적 신호를 NO,NC와 연결
+
 - 모터 드라이브/ STEP Mortor
+- flask
+```py
+from flask import Flask
+app = Flask(__name__)  #name 이름을 통한 flask객체 생성
+@app.route("/") # 라우팅을 위한  뷰함수 등록
+
+@app.route("/")
+def hello():
+    return "Hello World"
+
+if __name__ == "__main__":
+# 터미널에서 직접실행시키면 실행파일이 main으로 바뀐다.
+        app.run(host = "0.0.0.0", port="10111" ,debug=True)
+# 실행시 접속하면 Hello world가 적힌 창이 뜬다.
+```
+- flask를 통한 기기제어
+    - 주소 입력에 LED에 대한 입력에 따라 LED 제어할수 있는 코드(flask04.py)
+    - 주소 입력에 따라 화면 정보 출력하기
