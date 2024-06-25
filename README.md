@@ -82,3 +82,19 @@ if __name__ == "__main__":
 - flask를 통한 기기제어
     - 주소 입력에 LED에 대한 입력에 따라 LED 제어할수 있는 코드(flask04.py)
     - 주소 입력에 따라 화면 정보 출력하기
+
+## 4일차
+- 라즈베리 파이 picamera2 설치 및 사용해 카메라 구동해보기
+```python
+from picamera2 import Picamera2
+import time
+
+picam2 = Picamera2()
+camera_config = picam2.create_preview_configuration()
+picam2.configure(camera_config)
+picam2.start()
+time.sleep(2)
+picam2.capture_file("test1.jpg")
+```
+
+- 
