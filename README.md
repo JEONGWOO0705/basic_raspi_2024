@@ -97,4 +97,6 @@ time.sleep(2)
 picam2.capture_file("test1.jpg")
 ```
 
-- 
+- 스위치와 연결하여 스위치 클릭시 (풀다운) 카메라 작동 및 이미지 저장하기
+
+- 4digit 7 segment 이용하기 
