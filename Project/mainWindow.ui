@@ -27,7 +27,7 @@
      <string>촬영</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Led_ON">
+   <widget class="QPushButton" name="Led_On">
     <property name="geometry">
      <rect>
       <x>550</x>
