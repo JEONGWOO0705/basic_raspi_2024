@@ -18,7 +18,6 @@ def redon():
     time.sleep(1)
 
 def blueon():
-
     GPIO.output(redled, True) 
     GPIO.output(blueled, True) 
     GPIO.output(blueled, False) 
@@ -26,6 +25,6 @@ def blueon():
     
 def off():
     GPIO.output(redled,True)
-    GPIO.output(redled,True)
+    GPIO.output(blueled,True)
 
 

@@ -14,7 +14,7 @@ import led
 import Buzzer
 
 from PyQt5.QtWidgets import QWidget
-
+camerascreen = uic.loadUiType("/home/pi/Source/basic_raspi_2024/Project_raspi/camera.ui")[0]
 class qtApp(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
@@ -50,7 +50,7 @@ class qtApp(QMainWindow):
     
     def Led_BLUEClicked(self):
         led.blueon()
-        
+
         
 
     def Led_REDClicked(self):

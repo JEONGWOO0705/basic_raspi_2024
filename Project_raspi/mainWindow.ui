@@ -181,7 +181,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Camera.png</pixmap>
+     <pixmap>image/Camera.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -200,7 +200,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>LED.png</pixmap>
+     <pixmap>image/LED.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -219,7 +219,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Buzzer.png</pixmap>
+     <pixmap>image/Buzzer.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

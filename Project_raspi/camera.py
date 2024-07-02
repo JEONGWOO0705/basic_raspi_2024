@@ -11,9 +11,7 @@ GPIO.setup(swpin, GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 oldSw = 0
 newSw = 0
 
-# picamera 2 설정
 
-    
 
 def take_picture():
     picam2 = Picamera2()
