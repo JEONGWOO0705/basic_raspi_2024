@@ -27,7 +27,7 @@
      <string>촬영</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="Led_ON">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -40,7 +40,7 @@
      <string>켜기</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="Led_Off">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -53,7 +53,7 @@
      <string>끄기</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="Buzzer_Off">
     <property name="geometry">
      <rect>
       <x>380</x>
@@ -187,7 +187,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="Led_Change">
     <property name="geometry">
      <rect>
       <x>550</x>
