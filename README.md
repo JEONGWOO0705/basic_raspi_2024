@@ -95,8 +95,16 @@ picam2.configure(camera_config)
 picam2.start()
 time.sleep(2)
 picam2.capture_file("test1.jpg")
+
 ```
 
 - 스위치와 연결하여 스위치 클릭시 (풀다운) 카메라 작동 및 이미지 저장하기
 
-- 4digit 7 segment 이용하기 
+- 4digit 7 segment 이용하기
+
+## 5일차
+- PyQt를 활용한 기기 제어하기 프로젝트
+
+
+https://github.com/JEONGWOO0705/basic_raspi_2024/assets/84116251/cfe0f858-9b99-4714-8fa5-8563883ab670
+
