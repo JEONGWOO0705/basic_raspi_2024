@@ -12,16 +12,18 @@ oldSw = 0
 newSw = 0
 
 # picamera 2 설정
-def setting_Camera():
+
+    
+
+def take_picture():
     picam2 = Picamera2()
     camera_config = picam2.create_preview_configuration()
     picam2.configure(camera_config)
     picam2.start()
     time.sleep(2)
-
-def take_picture():
     now = datetime.datetime.now()
     print(now)
     fileName = now.strftime('%Y-%m-%d %H:%M:%S')
     picam2.capture_file(fileName + '.jpg')
+    picam2.close()
 
