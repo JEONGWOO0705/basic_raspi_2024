@@ -8,7 +8,7 @@ import RPi.GPIO as GPIO
 import time
 
 import webbrowser
-
+import Temper
 import camera  
 import led
 import Buzzer
@@ -24,12 +24,15 @@ class qtApp(QMainWindow):
     def initUI(self):
         try:
             self.CameraButton.clicked.connect(self.CameraButtonClicked)
+
             self.Buzzer_On.clicked.connect(self.Buzzer_OnClicked)
             self.Buzzer_Off.clicked.connect(self.Buzzer_OffClicked)
 
             self.Led_RED.clicked.connect(self.Led_REDClicked)
             self.Led_BLUE.clicked.connect(self.Led_BLUEClicked)
             self.Led_Off.clicked.connect(self.Led_OffClicked)
+
+            self.BtnTemper.clicked.connect(self.BtnTemperClicked)
         except Exception as e:
             print(f"Error initializing UI: {e}")
 
@@ -63,7 +66,10 @@ class qtApp(QMainWindow):
         print("LED OFF")
         
 
-
+    def BtnTemperClicked(self):
+        Temper.temper()
+        temp = self.LN_T.text()
+        humid = self.LN_H.text()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

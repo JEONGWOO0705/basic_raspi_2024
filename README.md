@@ -101,8 +101,9 @@ picam2.capture_file("test1.jpg")
 - 스위치와 연결하여 스위치 클릭시 (풀다운) 카메라 작동 및 이미지 저장하기
 
 - 4digit 7 segment 이용하기
-
 ## 5일차
+- 4digit 7segment를 이용한 카운트 다운 만들기!!
+## 6일차
 - PyQt를 활용한 기기 제어하기 프로젝트
 
 
