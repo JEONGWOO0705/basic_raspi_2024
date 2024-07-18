@@ -110,4 +110,6 @@ picam2.capture_file("test1.jpg")
 https://github.com/JEONGWOO0705/basic_raspi_2024/assets/84116251/cfe0f858-9b99-4714-8fa5-8563883ab670
 
 
+- new UI
+
 ![newUI](https://raw.githubusercontent.com/JEONGWOO0705/basic_raspi_2024/main/image/newui.jpg)
