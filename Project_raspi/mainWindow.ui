@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>773</width>
-    <height>637</height>
+    <width>895</width>
+    <height>434</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,11 +17,23 @@
    <widget class="QPushButton" name="CameraButton">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>230</y>
+      <x>240</x>
+      <y>120</y>
       <width>99</width>
       <height>30</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>촬영</string>
@@ -30,11 +42,16 @@
    <widget class="QPushButton" name="Led_RED">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>230</y>
+      <x>650</x>
+      <y>100</y>
       <width>99</width>
       <height>30</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>RED</string>
@@ -43,11 +60,16 @@
    <widget class="QPushButton" name="Led_Off">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>230</y>
+      <x>760</x>
+      <y>100</y>
       <width>99</width>
       <height>30</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>끄기</string>
@@ -56,11 +78,16 @@
    <widget class="QPushButton" name="Buzzer_Off">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>230</y>
+      <x>240</x>
+      <y>330</y>
       <width>99</width>
       <height>30</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>끄기</string>
@@ -69,11 +96,16 @@
    <widget class="QPushButton" name="Buzzer_On">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>230</y>
+      <x>240</x>
+      <y>280</y>
       <width>99</width>
       <height>30</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>켜기</string>
@@ -82,11 +114,18 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>30</y>
-      <width>68</width>
-      <height>22</height>
+      <x>50</x>
+      <y>40</y>
+      <width>141</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px; 
+padding: 2px;
+background-color: rgba(0, 222, 255, 110);
+font: bold italic 20px;
+color:white;</string>
     </property>
     <property name="text">
      <string>Camera</string>
@@ -98,11 +137,18 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>30</y>
-      <width>68</width>
-      <height>22</height>
+      <x>500</x>
+      <y>40</y>
+      <width>121</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px; 
+padding: 2px;
+background-color: rgba(0, 222, 255, 110);
+font: bold italic 20px;
+color:white;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -117,11 +163,18 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>30</y>
-      <width>68</width>
-      <height>22</height>
+      <x>50</x>
+      <y>220</y>
+      <width>141</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px; 
+padding: 2px;
+background-color: rgba(0, 222, 255, 110);
+font: bold italic 20px;
+color:white;</string>
     </property>
     <property name="text">
      <string>Buzzer</string>
@@ -190,7 +243,7 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>490</x>
       <y>90</y>
       <width>141</width>
       <height>81</height>
@@ -209,10 +262,10 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>100</y>
-      <width>141</width>
-      <height>71</height>
+      <x>60</x>
+      <y>260</y>
+      <width>131</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="text">
@@ -228,11 +281,16 @@
    <widget class="QPushButton" name="Led_BLUE">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>270</y>
+      <x>650</x>
+      <y>140</y>
       <width>99</width>
       <height>30</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>BLUE</string>
@@ -241,8 +299,8 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>350</y>
+      <x>460</x>
+      <y>230</y>
       <width>171</width>
       <height>191</height>
      </rect>
@@ -260,11 +318,16 @@
    <widget class="QPushButton" name="BtnTemper">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>530</y>
-      <width>99</width>
-      <height>30</height>
+      <x>780</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgb(251, 86, 7);
+border-radius: 5px;</string>
     </property>
     <property name="text">
      <string>작동</string>
@@ -273,8 +336,8 @@
    <widget class="QLCDNumber" name="LN_T">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>400</y>
+      <x>660</x>
+      <y>270</y>
       <width>71</width>
       <height>31</height>
      </rect>
@@ -283,8 +346,8 @@
    <widget class="QLCDNumber" name="LN_H">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>450</y>
+      <x>660</x>
+      <y>320</y>
       <width>71</width>
       <height>31</height>
      </rect>
@@ -293,8 +356,8 @@
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>400</y>
+      <x>740</x>
+      <y>280</y>
       <width>68</width>
       <height>22</height>
      </rect>
@@ -306,8 +369,8 @@
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>460</y>
+      <x>740</x>
+      <y>320</y>
       <width>68</width>
       <height>22</height>
      </rect>
@@ -316,6 +379,67 @@
      <string>%</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>911</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255,242,200);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>220</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 15px; 
+padding: 2px;
+background-color: rgba(0, 222, 255, 110);
+font: bold italic 20px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>thermohygrometer</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_12</zorder>
+   <zorder>CameraButton</zorder>
+   <zorder>Led_RED</zorder>
+   <zorder>Led_Off</zorder>
+   <zorder>Buzzer_Off</zorder>
+   <zorder>Buzzer_On</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>Led_BLUE</zorder>
+   <zorder>label_6</zorder>
+   <zorder>BtnTemper</zorder>
+   <zorder>LN_T</zorder>
+   <zorder>LN_H</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_13</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
